@@ -1,0 +1,42 @@
+.container, body, html{
+	height: 100%;
+  padding-right: 0px;
+  padding-left:0px;
+}
+
+img.logo {
+  position: relative;
+  bottom: 13px;
+  width: 50%
+ }
+
+.navbar{
+
+
+}
+ /*Navbar vertical*/
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+/*Mover slider nav*/
+.sidebar-nav {
+  position: relative;
+  bottom: 20px;
+  right: 125px;
+ }
