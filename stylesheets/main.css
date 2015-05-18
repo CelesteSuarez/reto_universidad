@@ -5534,6 +5534,7 @@ button.close {
   display: inline; }
 
 .container, body, html {
+  width: 100%;
   padding-right: 0px;
   padding-left: 0px; }
 
@@ -5548,6 +5549,10 @@ img.logo {
   position: relative;
   bottom: 20px;
   right: 125px; }
+
+aside {
+  position: fixed;
+  top: 14%; }
 
 .glyphicon {
   position: relative;
@@ -5567,5 +5572,10 @@ img.logo {
   top: 52px;
   position: fixed;
   left: 2px; }
+
+/*Horizontal*/
+.horizontal {
+  background-color: red;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
