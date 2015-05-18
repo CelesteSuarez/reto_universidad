@@ -5521,6 +5521,15 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+.style-none {
+  list-style: none; }
+
+.pull-left {
+  float: left; }
+
+.border {
+  border-radius: 80%; }
+
 .container, body, html {
   height: 100%;
   padding-right: 0px;
@@ -5553,5 +5562,17 @@ img.logo {
   position: relative;
   bottom: 20px;
   right: 125px; }
+
+.col-sm-3 {
+  width: 10%; }
+
+/*Barra*/
+.barra {
+  height: 65px;
+  background-color: gray;
+  width: 1331px;
+  position: relative;
+  bottom: 20px;
+  right: 20px; }
 
 /*# sourceMappingURL=main.css.map */

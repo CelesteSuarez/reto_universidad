@@ -10,10 +10,6 @@ img.logo {
   width: 50%
  }
 
-.navbar{
-
-
-}
  /*Navbar vertical*/
 
 @media (min-width: 768px) {
@@ -40,3 +36,19 @@ img.logo {
   bottom: 20px;
   right: 125px;
  }
+
+
+.col-sm-3 {
+  width: 10%;
+ }
+
+ /*Barra*/
+
+ .barra {
+  height: 65px;
+  background-color: gray;
+  width: 1331px;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  }
