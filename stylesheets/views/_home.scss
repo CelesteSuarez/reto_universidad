@@ -1,5 +1,4 @@
 .container, body, html{
-	height: 100%;
   padding-right: 0px;
   padding-left:0px;
 }
@@ -12,24 +11,7 @@ img.logo {
 
  /*Navbar vertical*/
 
-@media (min-width: 768px) {
-  .sidebar-nav .navbar .navbar-collapse {
-    padding: 0;
-    max-height: none;
-  }
-  .sidebar-nav .navbar ul {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-}
+
 /*Mover slider nav*/
 .sidebar-nav {
   position: relative;
@@ -38,17 +20,23 @@ img.logo {
  }
 
 
-.col-sm-3 {
-  width: 10%;
- }
-
- /*Barra*/
-
- .barra {
-  height: 65px;
-  background-color: gray;
-  width: 1331px;
+.glyphicon {
   position: relative;
-  bottom: 20px;
-  right: 20px;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
   }
+
+.nav-scroll {
+  width: 5%;
+  background-color: rgba(47, 0, 255, 0.05);
+  top: 52px;
+  position: fixed;
+  left: 2px;
+ }
