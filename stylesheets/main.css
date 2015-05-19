@@ -5533,6 +5533,9 @@ button.close {
 .inline {
   display: inline; }
 
+.text-center {
+  text-align: center; }
+
 .container, body, html {
   width: 100%;
   padding-right: 0px;
@@ -5552,7 +5555,16 @@ img.logo {
 
 aside {
   position: fixed;
-  top: 14%; }
+  top: 6%;
+  background-color: gray;
+  height: 80%;
+  position: fixed; }
+
+li.uno {
+  padding-bottom: 48%; }
+
+a {
+  color: black; }
 
 .glyphicon {
   position: relative;
@@ -5564,7 +5576,10 @@ aside {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: block; }
+  display: block;
+  font-size: 25px;
+  color: black;
+  text-align: center; }
 
 .nav-scroll {
   width: 5%;
@@ -5574,8 +5589,5 @@ aside {
   left: 2px; }
 
 /*Horizontal*/
-.horizontal {
-  background-color: red;
-  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

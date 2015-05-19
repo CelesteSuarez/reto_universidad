@@ -20,10 +20,21 @@ img.logo {
   right: 125px;
  }
 
-aside{
-	position: fixed;
-	top: 14%;
-}
+aside {
+  position: fixed;
+  top: 6%;
+  background-color: gray;
+  height: 80%;
+  position: fixed;
+   }
+
+   li.uno {
+  padding-bottom: 48%;
+  }
+
+  a{
+    color: black;
+  }
 
 .glyphicon {
   position: relative;
@@ -36,6 +47,9 @@ aside{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: block;
+  font-size: 25px;
+  color: black;
+  text-align: center;
   }
 
 .nav-scroll {
@@ -47,9 +61,3 @@ aside{
  }
 
  /*Horizontal*/
-
- .horizontal{
- 	background-color: red;
- 	width: 100%;
-
- }
