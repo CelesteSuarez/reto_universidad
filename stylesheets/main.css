@@ -5547,24 +5547,16 @@ img.logo {
   width: 50%; }
 
 /*Navbar vertical*/
-/*Mover slider nav*/
 .sidebar-nav {
   position: relative;
   bottom: 20px;
   right: 125px; }
 
 aside {
-  position: fixed;
-  top: 6%;
-  background-color: gray;
+  top: 16%;
+  background-color: #f8f8f8;
   height: 80%;
   position: fixed; }
-
-li.uno {
-  padding-bottom: 48%; }
-
-a {
-  color: black; }
 
 .glyphicon {
   position: relative;
@@ -5577,7 +5569,7 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: block;
-  font-size: 25px;
+  font-size: 45px;
   color: black;
   text-align: center; }
 
@@ -5589,5 +5581,18 @@ a {
   left: 2px; }
 
 /*Horizontal*/
+li.dos {
+  padding-right: 45px; }
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  margin-bottom: 0; }
+
+a {
+  left: 20px;
+  bottom: 3px;
+  margin-left: 5px;
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
