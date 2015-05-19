@@ -5560,9 +5560,9 @@ img.logo {
 aside {
   top: 19%;
   background-color: white;
-  height: 80%;
+  height: 60%;
   position: fixed;
-  width: 12%; }
+  width: 10%; }
 
 .glyphicon {
   position: relative;
@@ -5610,7 +5610,9 @@ a {
 
 div#bs-example-navbar-collapse-1 {
   padding-left: 0;
-  padding-right: 45px; }
+  padding-right: 58px;
+  position: fixed;
+  width: 100%; }
 
 li.name {
   top: 25px;
